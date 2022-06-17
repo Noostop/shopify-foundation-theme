@@ -3,6 +3,7 @@
     "section-hero": {
       "type": "section-hero",
       "settings": {
+        "image": "shopify:\/\/shop_images\/150ef84c5f79da0f3cee8788b203e5b9.jpg",
         "headline": "Headline",
         "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quos hic praesentium recusandae dolores odio animi deleniti officia cum itaque.",
         "button-url": "\/",
@@ -13,13 +14,14 @@
       "type": "section-collection",
       "settings": {
         "headline": "Selected products",
-        "collection_featured": "",
+        "collection_featured": "simba-hybrid-mattresses",
         "collection_products_limit": "4"
       }
     },
     "section-banner": {
       "type": "section-banner",
       "settings": {
+        "image": "shopify:\/\/shop_images\/273f27f3d6f69f91196844b4483a5184.webp",
         "headline": "Headline",
         "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quos hic praesentium recusandae dolores odio animi deleniti officia cum itaque.",
         "button-url": "\/",
@@ -32,16 +34,19 @@
         "image-1": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/6cb0fb61e86f41cefb73023b6904115d.webp"
           }
         },
         "image-2": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/758d442befdad713946d6b80e1964d6e.webp"
           }
         },
         "image-3": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/758d442befdad713946d6b80e1964d6e.webp"
           }
         }
       },

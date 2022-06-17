@@ -8,13 +8,21 @@ const path = require('path')
 
 module.exports = {
   theme: {
+    fontFamily: {
+      'sans': ['Inter', 'Helvetica', 'Arial', 'sans-serif'],
+    },
     extend: {},
     container: {
       center: true,
       padding: '1rem'
     }
   },
-  plugins: [],
+  corePlugins: {
+    aspectRatio: false,
+  },
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+  ],
   content: [
     path.resolve(__dirname, '**/*.{js,vue}'),
     path.resolve(__dirname, '../shopify/**/*.liquid')

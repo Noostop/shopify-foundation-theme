@@ -1,3 +1,40 @@
 {
-  "current": {}
+  "current": {
+    "sections": {
+      "layout-announcement-bar": {
+        "type": "layout-announcement-bar",
+        "settings": {
+          "visible": true,
+          "home_page_only": false,
+          "content": "Lorem ipsum dolor sit amet."
+        }
+      },
+      "layout-header": {
+        "type": "layout-header",
+        "settings": {
+        }
+      },
+      "layout-footer": {
+        "type": "layout-footer",
+        "settings": {
+          "social_instagram_visible": true,
+          "social_instagram_link": "",
+          "social_twitter_visible": true,
+          "social_twitter_link": "",
+          "social_facebook_visible": true,
+          "social_facebook_link": "",
+          "social_youtube_visible": true,
+          "social_youtube_link": ""
+        }
+      },
+      "layout-mobile-navigation": {
+        "type": "layout-mobile-navigation",
+        "settings": {
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  }
 }
