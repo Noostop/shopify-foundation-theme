@@ -1,19 +1,35 @@
 <script>
-import { ref, toRef } from "vue";
+import {Menu, MenuButton, MenuItems, MenuItem} from '@headlessui/vue';
+
+import {ref, toRefs} from "vue";
 
 export default {
-  setup(props, { slots }) {
-    const flag = ref(true);
+  components: {
+    Menu, MenuButton, MenuItems, MenuItem
+  },
+  props: {
+    links: {
+      type: String,
+      // required: true,
+      default: ""
+    }
+  },
+  setup(props, {slots}) {
+    const active = ref(true);
+
+    const {links} = toRefs(props)
+
+    console.log(links.value)
 
     const handleClick = () => {
-      flag.value = !flag.value;
+      active.value = !active.value;
     };
 
     return () =>
-      slots.default({
-        flag: flag.value,
-        handleClick,
-      });
+        slots.default({
+          active: active.value,
+          handleClick,
+        });
   },
 };
 </script>
